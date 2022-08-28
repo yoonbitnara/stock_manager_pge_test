@@ -14,17 +14,19 @@
   
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
   <link href="./assets/favicon.ico" rel="icon">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
   
   <title>Stock Manager</title>  
-
-<link href="./main.3da94fde.css" rel="stylesheet"></head>
+  
+  <link href="./main.3da94fde.css" rel="stylesheet"></head>
+  <link rel="stylesheet" href="css/style.css">
 
 <body>
 
  <!-- Add your content of header -->
 
 <header>
-  <nav class="navbar navbar-fixed-top navbar-default">
+  <!-- <nav class="navbar navbar-fixed-top navbar-default">
     <div class="container">
         <button type="button" class="navbar-toggle">
           <span class="sr-only">Toggle navigation</span>
@@ -39,10 +41,25 @@
           <li><a href="./index.html" title="">Home</a></li>
           <li><a href="./about.html" title="">About me</a></li>
           <li><a href="./project.html" title="">Project</a></li>
-          <!--<li><a href="./components.html" title="">Components</a></li> -->
         </ul>
       </nav> 
     
+    </div>
+  </nav> -->
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container-fluid">
+    
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fa fa-bars"></span> Menu
+      </button>
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item active"><a href="./index.html" class="nav-link">Home</a></li>
+          </li>
+          <li class="nav-item"><a href="./about.html" class="nav-link">About We</a></li>
+          <li class="nav-item"><a href="./project.html" class="nav-link">Project</a></li>
+        </ul>
+      </div>
     </div>
   </nav>
 </header>
@@ -64,21 +81,10 @@
   </div>
 </div>
 
-<div class="navbar navbar-default navbar-fixed-bottom">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 text-center">
-        
-
-        <ul class="navbar-nav nav navbar-right">
-          <li>
-            <a href="./about.html" title="" class="project-nav right"><span class="project-number">01</span>About Me</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
 
 <script>
   document.addEventListener("DOMContentLoaded", function (event) {
